@@ -274,7 +274,7 @@ def setup_about():
     bgl.image = img
     label = Label(about_frame, text="About Hand Cricket Game", font=('Arial',30),bg='light blue')
     label.pack(pady=20)
-    msg="The rules of the Hand Cricket Game are as follows - \n1)First there will be a toss(the calling of the toss will be done either by the player or computer which will be decided randomly)\n2)The winner of the toss will decide whether to do batting or bowling\n3)The bowler has to match the choice of the batsman to get them out\n4)The batsman's choice if not matched by the bowler will be counted as their score\n5)Both the computer and the player will choose a number from the list - 1,2,3,4,5,6 whether batting or bowling"
+    msg="The rules of the Hand Cricket Game are as follows - \n1)First there will be a toss(the calling of the toss will be done by the player)\n2)The winner of the toss will decide whether to do batting or bowling\n3)The bowler has to match the choice of the batsman to get them out\n4)The batsman's choice if not matched by the bowler will be counted as their score\n5)Both the computer and the player will choose a number from the list - 1,2,3,4,5,6 whether batting or bowling"
     mv=Message(about_frame,text=msg,font=('Arial',22),width='800',bg='light green')
     mv.pack()
     button = Button(about_frame, text="Back to Home",bg='light blue', font=('Arial',20),command=show_home_page)
